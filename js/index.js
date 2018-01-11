@@ -28,7 +28,7 @@ $(document).ready(function () {
     $("#introduction .introductionContainer .aschVideo span.videoText").css({"width": "360px","height": "42px","top":"calc(50% - 20px)"});
 
     $("#downloads .downloadsContainer").css("height", "522px");
-    $("#downloads .downloadsContainer .downloadsContainerRight").css("height", "calc(100% + 50px)");
+    $("#downloads .downloadsContainer .downloadsContainerRight").css("height", "522px");
     $("#downloads .downloadsContainer .downloadsContainerLeft .dlsit-list li .dlistContainer").css("margin", "40px 2px");
 
     // if ((screen.width >1800) && (screen.width< 1910)){
