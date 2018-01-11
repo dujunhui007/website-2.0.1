@@ -110,6 +110,9 @@ function loadProperties(str) {
       $('#commonText1').html($.i18n.prop('string_commonText1'));
       $('#commonText2').html($.i18n.prop('string_commonText1'));
       $('#commonText3').html($.i18n.prop('string_commonText1'));
+      $('#commonText4').html($.i18n.prop('string_commonText1'));
+      $('#commonText5').html($.i18n.prop('string_commonText1'));
+      $('#commonText6').html($.i18n.prop('string_commonText1'));
       $('#featuresTopTitle').html($.i18n.prop('string_featuresTopTitle'));
       $('#featuresTopTitleContent').html($.i18n.prop('string_featuresTopTitleContent'));
 
@@ -143,8 +146,77 @@ function loadProperties(str) {
       $('#featuresTopTitle15').html($.i18n.prop('string_featuresTopTitle15'));
       $('#featuresTopTitleContent15').html($.i18n.prop('string_featuresTopTitleContent15'));
 
+      $('#AdvantagesTitle').html($.i18n.prop('string_AdvantagesTitle'));
+
+      $('#advantages1').html($.i18n.prop('string_advantages1'));
+      $('#advantagesContent1').html($.i18n.prop('string_advantagesContent1'));
+      $('#advantages2').html($.i18n.prop('string_advantages2'));
+      $('#advantagesContent2').html($.i18n.prop('string_advantagesContent2'));
+      $('#advantages3').html($.i18n.prop('string_advantages3'));
+      $('#advantagesContent3').html($.i18n.prop('string_advantagesContent3'));
+      $('#advantages4').html($.i18n.prop('string_advantages4'));
+      $('#advantagesContent4').html($.i18n.prop('string_advantagesContent4'));
+      $('#advantages5').html($.i18n.prop('string_advantages5'));
+      $('#advantagesContent5').html($.i18n.prop('string_advantagesContent5'));
+      $('#advantages6').html($.i18n.prop('string_advantages6'));
+      $('#advantagesContent6').html($.i18n.prop('string_advantagesContent6'));
+
+      $('#scenariosTitle').html($.i18n.prop('string_scenariosTitle'));
+      $('#scenariosTitle1').html($.i18n.prop('string_scenariosTitle1'));
+
+      $('#scenariosTitle2').html($.i18n.prop('string_scenariosTitle2'));
+      $('#scenariosDescribe2').html($.i18n.prop('string_scenariosDescribe2'));
+      $('#scenariosContent2').html($.i18n.prop('string_scenariosContent2'));
+      $('#scenariosTitle3').html($.i18n.prop('string_scenariosTitle3'));
+      $('#scenariosDescribe3').html($.i18n.prop('string_scenariosDescribe3'));
+      $('#scenariosContent3').html($.i18n.prop('string_scenariosContent3'));
+      $('#scenariosTitle4').html($.i18n.prop('string_scenariosTitle4'));
+      $('#scenariosDescribe4').html($.i18n.prop('string_scenariosDescribe4'));
+      $('#scenariosContent4').html($.i18n.prop('string_scenariosContent4'));
+      $('#scenariosTitle5').html($.i18n.prop('string_scenariosTitle5'));
+      $('#scenariosDescribe5').html($.i18n.prop('string_scenariosDescribe5'));
+      $('#scenariosContent5').html($.i18n.prop('string_scenariosContent5'));
+      $('#scenariosTitle6').html($.i18n.prop('string_scenariosTitle6'));
+      $('#scenariosDescribe6').html($.i18n.prop('string_scenariosDescribe6'));
+      $('#scenariosContent6').html($.i18n.prop('string_scenariosContent6'));
+      $('#scenariosTitle7').html($.i18n.prop('string_scenariosTitle7'));
+      $('#scenariosDescribe7').html($.i18n.prop('string_scenariosDescribe7'));
+      $('#scenariosContent7').html($.i18n.prop('string_scenariosContent7'));
+
+      $('#downloadsTitle').html($.i18n.prop('string_downloadsTitle'));
+      $('#downloadsTitle1').html($.i18n.prop('string_downloadsTitle1'));
+      $('#downloadsTitle11').html($.i18n.prop('string_downloadsTitle1'));
+      $('#downloadsTitle2').html($.i18n.prop('string_downloadsTitle2'));
+      $('#downloadsTitle22').html($.i18n.prop('string_downloadsTitle2'));
+      $('#downloadsTitle3').html($.i18n.prop('string_downloadsTitle3'));
+      $('#downloadsTitle33').html($.i18n.prop('string_downloadsTitle3'));
+      $('#downloadsTitle4').html($.i18n.prop('string_downloadsTitle4'));
+      $('#downloadsTitle44').html($.i18n.prop('string_downloadsTitle4'));
+
+      $('#downloadContent1').html($.i18n.prop('string_downloadContent1'));
+      $('#downloadContent2').html($.i18n.prop('string_downloadContent2'));
+      $('#downloadContent3').html($.i18n.prop('string_downloadContent3'));
+      $('#downloadContent4').html($.i18n.prop('string_downloadContent4'));
+
+      $('#downloadLink1').html($.i18n.prop('string_downloadLink1'));
+      $('#downloadLink2').html($.i18n.prop('string_downloadLink1'));
+      $('#downloadLink3').html($.i18n.prop('string_downloadLink1'));
+      $('#downloadLink4').html($.i18n.prop('string_downloadLink1'));
+      $('#downloadLink11').html($.i18n.prop('string_downloadLink11'));
+      $('#downloadLink22').html($.i18n.prop('string_downloadLink11'));
+      $('#downloadLink33').html($.i18n.prop('string_downloadLink11'));
+      $('#downloadLink44').html($.i18n.prop('string_downloadLink11'));
 
 
+      $('#partnersTitle').html($.i18n.prop('string_partnersTitle'));
+      $('#linkTitle1').html($.i18n.prop('string_linkTitle1'));
+      $('#linkTitle2').html($.i18n.prop('string_linkTitle2'));
+      $('#linkTitle3').html($.i18n.prop('string_linkTitle3'));
+      $('#linkTitle4').html($.i18n.prop('string_linkTitle4'));
+
+      $('#footerLink1').html($.i18n.prop('string_footerLink1'));
+      $('#footerLink2').html($.i18n.prop('string_footerLink2'));
+      $('#footerLink3').html($.i18n.prop('string_footerLink3'));
 
     }
   });
