@@ -24,7 +24,7 @@ $(document).ready(function () {
   }
 
   if (isSafari) {
-
+    console.log(screen.width);
     $("#introduction .introductionContainer .aschVideo span.videoText").css({"width": "360px","height": "42px","top":"calc(50% - 20px)"});
 
     $("#downloads .downloadsContainer").css("height", "522px");
