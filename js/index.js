@@ -30,14 +30,6 @@ $(document).ready(function () {
     $("#downloads .downloadsContainer").css("height", "522px");
     $("#downloads .downloadsContainer .downloadsContainerRight").css("height", "522px");
     $("#downloads .downloadsContainer .downloadsContainerLeft .dlsit-list li .dlistContainer").css("margin", "40px 2px");
-
-    // if ((screen.width >1800) && (screen.width< 1910)){
-    //   $("#home .aschHomeImg1").css({"width": "736px", "top": "32%", "left": "calc(50% - 368px)"});
-    //   $("#home .aschHomeLinks").css({"width": "450px", "top": "60%", "left": "calc(50% - 225px)"});
-    // }else {
-    //   $("#home .aschHomeImg1").css({"width": "736px", "top": "32%", "left": "calc(50% - 368px)"});
-    //   $("#home .aschHomeLinks").css({"width": "450px", "top": "70%", "left": "calc(50% - 225px)"});
-    // }
   }
 
   if (isEdge > -1) {
