@@ -1120,16 +1120,16 @@ ul.homeLinks li:nth-child(4) i {
     cursor: pointer
 }
 
-#introduction .introductionContainer .aschVideo span.videoText {
+#introduction .introductionContainer .aschVideo .videoText {
     display: block;
-    width: 440px;
-    height: 52px;
-    background: url(../images/aschVideoText.png) no-repeat center;
-    background-size: cover;
+    width:36%;
+    /*height: 52px;*/
+    /*background: url(../images/aschVideoText.png) no-repeat center;*/
+    /*background-size: cover;*/
     position: absolute;
     top: calc(50% - 24px);
     /*left: calc(50% - 198px);*/
-    left: 10%;
+    left: 7%;
 }
 
 @media screen and (max-width: 1910px){
