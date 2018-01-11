@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .btnContainer{
+            position: relative;
+            width: 120px;
+            height: 40px;
+            margin: 50px auto;
+            cursor: pointer;
+            /*background: red;*/
+        }
+
+
+        .btnContainer div:hover{
+            background: #042745;
+        }
+
+        .btnContainer div{
+            background: #12072e;
+        }
+
+        .btnContainer .btn1, .btnContainer .btn2{
+            width: 100px;
+            height: 100%;
+            margin: 2px 0;
+            padding: 0 10px;
+        }
+
+        .btnContainer:hover .btn2{
+            opacity: 1;
+            margin-top: 8px;
+        }
+
+
+        .btnContainer .btn2{
+            position: absolute;
+            top:100%;
+            left:0;
+            opacity: 0;
+            -webkit-transition: all 0.5s ease-in-out;
+            transition: all 0.5s ease-in-out;
+        }
+
+
+
+
+        .btnContainer .btn1 .btnFlag1,.btnContainer .btn2 .btnFlag2{
+            display: inline-block;
+            width: 30px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+        }
+
+        .btnContainer .btn1 .btnFlag1 img, .btnContainer .btn2 .btnFlag2 img{
+            width:auto;
+            height: 14px;
+        }
+
+
+        .btnContainer .btn1  span, .btnContainer .btn2  span{
+            color: #fff;
+            vertical-align: text-bottom;
+            font-size: 14px;
+        }
+
+
+
+        .btnContainer:hover .sjx{
+            top:19px;
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+        }
+
+        .sjx{
+            display: inline-block;
+            border-right: 2px solid #343c99;
+            border-top: 2px solid #343c99;
+            height: 8px;
+            width: 8px;
+            /* margin: 50px auto 0; */
+            transform: rotate(135deg);
+            -webkit-transform: rotate(135deg);
+            border-left: 2px solid transparent;
+            border-bottom: 2px solid transparent;
+            -webkit-transition: all 0.5s ease-in-out;
+            transition: all 0.5s ease-in-out;
+            cursor: pointer;
+            position: absolute;
+            right: -30px;
+            top: 12px;
+        }
+    </style>
+</head>
+<body>
+<div class="btnContainer">
+    <i class="sjx"></i>
+    <div class="btn1">
+        <i class="btnFlag1">
+            <img src="images/china.png" alt="中文">
+        </i>
+       <span>中文简体</span>
+    </div>
+    <div class="btn2">
+        <i class="btnFlag2">
+            <img src="images/uk.png" alt="English">
+        </i>
+        <span>English</span>
+    </div>
+
+</div>
+
+</body>
+</html>

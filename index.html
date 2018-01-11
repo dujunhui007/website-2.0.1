@@ -74,7 +74,7 @@
     <div class="homeContainer">
         <div class="homeContainerContent">
             <div class="aschHomeImg1">
-                <img src="images/bbb.png" alt="AschLogo">
+                <img src="images/aschHomeChinaImg.png" alt="AschLogo">
             </div>
             <div class="aschHomeLinks">
                 <a class="toGetStarted" href="javascript:;">
@@ -104,7 +104,7 @@
                     <span></span>
                 </div>
                 <p>GitHub</p>
-                <p>Asch source code repository</p>
+                <p id="homeLinksAschCode"></p>
                 <span class="rightLine"></span>
             </a>
         </li>
@@ -114,8 +114,8 @@
                     <i></i>
                     <span></span>
                 </div>
-                <p>Explorer</p>
-                <p>Blockchain explorer of Asch</p>
+                <p id="homeLinksAschExplorer"></p>
+                <p id="homeLinksAschExplorerContent"></p>
                 <span class="rightLine"></span>
             </a>
         </li>
@@ -125,8 +125,8 @@
                     <i></i>
                     <span></span>
                 </div>
-                <p>Wallet</p>
-                <p>Asch online wallet</p>
+                <p id="homeLinksAschWallet"></p>
+                <p id="homeLinksAschWalletContent"></p>
                 <span class="rightLine"></span>
             </a>
         </li>
@@ -136,8 +136,8 @@
                     <i></i>
                     <span></span>
                 </div>
-                <p>Forum</p>
-                <p>Asch forum</p>
+                <p id="homeLinksAschForum"></p>
+                <p id="homeLinksAschForumContent"></p>
             </a>
         </li>
     </ul>
@@ -165,46 +165,13 @@
         <div class="introductionCenter">
             <div class="introductionContent">
                 <i></i>
-                <h3>Asch is an efficient, flexible and safe decentralized application platform, which was initially
-                    designed
-                    to lower the threshold / barrier to entry for developers.</h3>
-                <p>Asch is an efficient, flexible and safe decentralized application platform, which was initially
-                    designed
-                    to lower the threshold / barrier to entry for developers. With the use of JavaScript as its
-                    application
-                    programming language, the platform makes use of relational databases to store data, drawing
-                    similarities
-                    between developing a DAPP and developing a traditional web application. This type of platform
-                    carries a
-                    great deal of appeal to developers, as well as small and medium enterprises, since its ease of use
-                    results in greater productivity, fuelling and facilitating a more prosperous ecosystem in the
-                    process.
-                    Asch is open in design and is not limited to any particular niche market such as finance, document
-                    storage, copyright certification, etc. The APIs which it provides are underlying and abstract, and
-                    they
-                    can be combined freely so as to facilitate a variety of applications. In terms of the consensus
-                    mechanism, Asch has inherited and enhanced the DPOS algorithm, simultaneously reducing the
-                    probability
-                    of forking and double spending by a significant degree. Furthermore, Asch's side chain, i.e. the
-                    application mode, not only improves scalability by delaying the expansion of the blockchain, but
-                    also
-                    makes DAPPs more flexible and personalized. Asch is a forward-looking, low-cost and one-stop
-                    application
-                    solution, which is believed to be a new generation of incubator for decentralized application.</p>
+                <h3 id="introductionContentTitleOne"></h3>
+                <p id="introductionContentOne"></p>
             </div>
             <div class="introductionContent">
                 <i></i>
-                <h3>The services provided by the Asch platform include a public chain and a set of application
-                    SDKs.</h3>
-                <p>The services provided by the Asch platform include a public chain and a set of application SDKs; the
-                    public chain is called the main chain. The Asch application SDKs can be used to develop blockchain
-                    applications with a free-running, immutable ledger. These applications are also known as side chain
-                    applications. An application SDK has a built-in cross-chain protocol, through which the side chain
-                    can
-                    communicate with the main chain. In other words, the main chain has the function of asset routing,
-                    through which a variety of assets can flow among different applications. Asch's ecological system
-                    contains multiple chains, with each chain possessing the ability to carry multiple tokens or assets.
-                    Each token or asset can also be transferred to multiple chains.</p>
+                <h3 id="introductionContentTitleTwo"></h3>
+                <p id="introductionContentTwo"></p>
             </div>
         </div>
     </div>
@@ -224,8 +191,8 @@
 <div class="section" id="application">
     <div class="sectionTop">
         <i></i>
-        <span>Dapps</span>
-        <p>Next Generation Decentralized Application Platform</p>
+        <span id="dappsTitle"></span>
+        <p id="dappsTopContent"></p>
     </div>
     <div class="applicationContainer">
         <div class="applicationCenter">
@@ -240,8 +207,8 @@
                     <div class="applicationDetail">
                         <p class="applicationDetailTitle">CCTime</p>
                         <span class="applicationDetailLine"></span>
-                        <p class="applicationDetailDescribe">CCTime, focusing on spreading valuable information, is a distributed sharing platform of social news developed on Asch side chain technology.</p>
-                        <a class="applicationDetailMore" href="dapp1.html" target="_blank">Read more</a>
+                        <p class="applicationDetailDescribe" id="applicationDetailContent1"></p>
+                        <a class="applicationDetailMore" id="applicationDetailMore1" href="dapp1.html" target="_blank"></a>
                     </div>
                 </li>
                 <li class="toKmwPage">
@@ -251,10 +218,10 @@
                         <i></i>
                     </div>
                     <div class="applicationDetail">
-                        <p class="applicationDetailTitle">Koumei Cottage</p>
+                        <p class="applicationDetailTitle" id="applicationDetailTitle2"></p>
                         <span class="applicationDetailLine"></span>
-                        <p class="applicationDetailDescribe">Koumei Cottage(KMC), which is called “Kong Ming Wu” in Chinese, is a decentralized market predicting application based on Asch platform.</p>
-                        <a class="applicationDetailMore" href="dapp2.html" target="_blank">Read more</a>
+                        <p class="applicationDetailDescribe" id="applicationDetailDescribe2"></p>
+                        <a class="applicationDetailMore" id="applicationDetailMore2" href="dapp2.html" target="_blank"></a>
                     </div>
                 </li>
                 <li class="toBbPage">
@@ -264,10 +231,10 @@
                         <i></i>
                     </div>
                     <div class="applicationDetail">
-                        <p class="applicationDetailTitle">Help China</p>
+                        <p class="applicationDetailTitle" id="applicationDetailTitle3"></p>
                         <span class="applicationDetailLine"></span>
-                        <p class="applicationDetailDescribe">Help China is a mobile application of light-social, news and platform based on Asch chain with the function that users can allocate and accept assignments online, chat and browsing news.</p>
-                        <a class="applicationDetailMore" href="dapp3.html" target="_blank">Read more</a>
+                        <p class="applicationDetailDescribe" id="applicationDetailDescribe3"></p>
+                        <a class="applicationDetailMore" id="applicationDetailMore3" href="dapp3.html" target="_blank"></a>
                     </div>
                 </li>
                 <li class="toHelloPage">
@@ -277,10 +244,10 @@
                         <i></i>
                     </div>
                     <div class="applicationDetail">
-                        <p class="applicationDetailTitle">Hello Kimi</p>
+                        <p class="applicationDetailTitle" id="applicationDetailTitle4">Hello Kimi</p>
                         <span class="applicationDetailLine"></span>
-                        <p class="applicationDetailDescribe">Hello kimi is the first cloud pets social casual game platform in China based on Asch side-chain technology.</p>
-                        <a class="applicationDetailMore" href="dapp4.html" target="_blank">Read more</a>
+                        <p class="applicationDetailDescribe" id="applicationDetailDescribe4"></p>
+                        <a class="applicationDetailMore" id="applicationDetailMore4" href="dapp4.html" target="_blank"></a>
                     </div>
                 </li>
             </ul>
@@ -290,58 +257,40 @@
 <div class="section featuresOne" id="features">
     <div class="sectionTop">
         <i></i>
-        <span>Features 01.</span>
-        <p>Next Generation Decentralized Application Platform</p>
+        <span id="feature1"></span>
+        <p id="commonText1"></p>
     </div>
     <div class="featuresTopContainer">
         <div class="featuresTopBorderOne"></div>
         <div class="featuresTopBorderTwo"></div>
         <div class="featuresTop">
-            <h4>Public chain</h4>
-            <p>Asch's public chain is mainly responsible for data sharing between infrastructure and applications; it is
-                also used for asset routing. The SDK is responsible for building specific applications.</p>
+            <h4 id="featuresTopTitle"></h4>
+            <p id="featuresTopTitleContent"></p>
             <ul>
                 <li>
                     <i></i>
-                    <span>Application management</span>
-                    <p>Applications need to register meta-information into the main chain before issuing it. The
-                        meta-information includes the name and description of the application, the initial witness, and
-                        other relevant configuration information for the asset routing. Users can browse, retrieve,
-                        trace,
-                        download and visit decentralized applications through the module.</p>
+                    <span id="featuresTopTitle2"></span>
+                    <p id="featuresTopTitleContent2"></p>
                 </li>
                 <li>
                     <i></i>
-                    <span>Asset routing</span>
-                    <p>The assets registered on the main-chain can communicate with each application via cross-chain.
-                        Although applications are separated from each other, the flow of value could be realized through
-                        the
-                        asset routing function of the main chain.</p>
+                    <span id="featuresTopTitle3"></span>
+                    <p id="featuresTopTitleContent3"></p>
                 </li>
                 <li>
                     <i></i>
-                    <span>Asset management</span>
-                    <p>Any account can register and issue multiple assets, and the issuer can configure the assets in
-                        various ways, for example, through the use of an access control list.</p>
+                    <span id="featuresTopTitle4"></span>
+                    <p id="featuresTopTitleContent4"></p>
                 </li>
                 <li>
                     <i></i>
-                    <span>Delegate management</span>
-                    <p>Each account with tokens on the Asch main-chain can be registered as a delegate, which is also
-                        known as a “witness”. The top 101 delegates are given the opportunity and responsibility of
-                        being the system's account keepers, including the right to forging (or mining, accounting and
-                        generating blocks) which results in the reward of a certain amount of tokens. The account
-                        keepers can be promoted via the vote of the token holders, who are able to vote for any
-                        delegate, to raise their ranking.</p>
+                    <span id="featuresTopTitle5"></span>
+                    <p id="featuresTopTitleContent5"></p>
                 </li>
                 <li>
                     <i></i>
-                    <span>Account management</span>
-                    <p>The account model is adopted at the lower level of Asch chain. Each private key corresponds to an
-                        account in which the basic user information such as the wallet address, public key, nickname, as
-                        well as other configuration information or statistical information is stored. As all application
-                        chains use the same account model, an account on the Asch chain is able to use the functions of
-                        all applications directly.</p>
+                    <span id="featuresTopTitle6"></span>
+                    <p id="featuresTopTitleContent6"></p>
                 </li>
             </ul>
         </div>
@@ -350,65 +299,55 @@
 <div class="section" id="featuresTwo">
     <div class="sectionTop featuresTwoContainer">
         <i></i>
-        <span>Features 02.</span>
-        <p>Next Generation Decentralized Application Platform</p>
+        <span id="feature2">Features 02.</span>
+        <p id="commonText2"></p>
     </div>
     <div class="featuresBottomContainer">
         <div class="featuresBottomBorderOne"></div>
         <div class="featuresBottomBorderTwo"></div>
         <div class="featuresBottom">
-            <h4>SDK</h4>
-            <p>Asch's public chain is mainly responsible for data sharing between infrastructure and applications; it is
-                also used for asset routing. The SDK is responsible for building specific applications.</p>
+            <h4 id="featuresTopTitle7"></h4>
+            <p id="featuresTopTitleContent7"></p>
             <ul>
                 <li>
                     <i></i>
-                    <span>ORM</span>
-                    <p>Object-Relational Mapping (ORM) can support relational mapping of objects to organize business
-                        data, and support index allocation, whilst complex searches can be realized with the JSON
-                        language.</p>
+                    <span id="featuresTopTitle8"></span>
+                    <p id="featuresTopTitleContent8"></p>
                 </li>
                 <li>
                     <i></i>
-                    <span>JavaScript</span>
-                    <p>Developers can utilize and combine huge amounts of third-party components freely by using
-                        JavaScript as the native language.</p>
+                    <span id="featuresTopTitle9"></span>
+                    <p id="featuresTopTitleContent9"></p>
                 </li>
                 <li>
                     <i></i>
-                    <span>Two-way peg cross-chain protocol</span>
-                    <p>Cross-chain protocol supporting two-way peg.</p>
+                    <span id="featuresTopTitle10"></span>
+                    <p id="featuresTopTitleContent10"></p>
                 </li>
                 <li>
                     <i></i>
-                    <span>Immutable ledger</span>
-                    <p>An immutable ledger is built in with the account setup function. All invoking operations and
-                        statuses will be written into the immutable ledger when developers and users invoke a chain code
-                        function.</p>
+                    <span id="featuresTopTitle11"></span>
+                    <p id="featuresTopTitleContent11"></p>
                 </li>
                 <li>
                     <i></i>
-                    <span>Lower level interfaces</span>
-                    <p>In comparison to the Solidity language of Ethereum, ASCH allows developers to use underlying APIs
-                        so as to gain maximum control of the whole system, examples including the handler and filter of
-                        every cycle time event.</p>
+                    <span id="featuresTopTitle12"></span>
+                    <p id="featuresTopTitleContent12"></p>
                 </li>
                 <li>
                     <i></i>
-                    <span>Customize fee definitions</span>
-                    <p>Developers can set up different service charges for every event or chain code, and even can set
-                        up different asset tokens aside from XAS as service charge.</p>
+                    <span id="featuresTopTitle13"></span>
+                    <p id="featuresTopTitleContent13"></p>
                 </li>
                 <li>
                     <i></i>
-                    <span>Transaction privacy</span>
-                    <p>The feature of optional transaction privacy.</p>
+                    <span id="featuresTopTitle14"></span>
+                    <p id="featuresTopTitleContent14"></p>
                 </li>
                 <li>
                     <i></i>
-                    <span>SmartDB</span>
-                    <p>Cache and persistent data storage can be synchronized automatically to greatly improve writing
-                        performance.</p>
+                    <span id="featuresTopTitle15"></span>
+                    <p id="featuresTopTitleContent15"></p>
                 </li>
             </ul>
         </div>
@@ -417,8 +356,8 @@
 <div class="section" id="advantages">
     <div class="sectionTop advantagesTitle">
         <i></i>
-        <span>Advantages</span>
-        <p>Next Generation Decentralized Application Platform</p>
+        <span id="AdvantagesTitle">Advantages</span>
+        <p id="commonText3"></p>
     </div>
     <div class="advantageLogo"></div>
     <hr>
