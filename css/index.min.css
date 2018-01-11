@@ -2828,7 +2828,7 @@ ul.homeLinks li:nth-child(4) i {
 @media screen and (max-width: 1910px) {
     #downloads .downloadsContainer {
         width: 70%;
-        height: 400px;
+        height: 480px;
         padding-bottom: 50px;
         display: -webkit-flex;
         display: flex;
@@ -3093,7 +3093,7 @@ ul.homeLinks li:nth-child(4) i {
     }
 
     #downloads .downloadsContainer .downloadsContainerLeft .dlsit-list li .dlistContainer {
-        margin: 10px 2px
+        margin: 20px 2px
     }
 
     #downloads .downloadsContainer .downloadsContainerLeft .dlsit-list li p {
