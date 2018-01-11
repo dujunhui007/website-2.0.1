@@ -56,6 +56,11 @@ nav .navContainer .navLeft .replaceLogoTwo {
     background-size: cover
 }
 
+
+
+
+
+
 nav .navContainer .navRight {
     position: relative;
     width: 72%;
@@ -193,6 +198,22 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
         border: none;
     }
 }
+
+nav .navRight .switchLanguage{
+    position: absolute;
+    left: -90px;
+}
+
+nav .navRight .switchLanguage button{
+    width: 60px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+
+
+
+
 
 .toTop:hover {
     background: url(../images/toTopBackHover.png) no-repeat center;
