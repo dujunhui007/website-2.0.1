@@ -95,8 +95,6 @@ $(function () {
       });
 
 
-
-
       $("#home .homeContainer .homeContainerContent .aschHomeImg1 img").attr("src","images/aschHomeChinaImg.png");
       $("#home .homeContainer .homeContainerContent .aschHomeLinks .toGetStarted .toGetStarted1").attr("src","images/comeSoon1.png");
       $("#home .homeContainer .homeContainerContent .aschHomeLinks .toGetStarted .toGetStarted2").attr("src","images/getstarted1.png");

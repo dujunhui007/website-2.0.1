@@ -9,6 +9,105 @@ body, html {
     src: url("../font/Maquette-Light.otf");
 }
 
+/*switch language begin*/
+.switchLanguageBtn{
+    position: fixed;
+    top:20px;
+    right: 100px;
+    z-index: 9999;
+}
+
+.btnContainer {
+    position: relative;
+    width: 120px;
+    height: 34px;
+    /*margin: 50px auto;*/
+    cursor: pointer;
+}
+
+.btnContainer .btn2:hover {
+    background: #f7bb59;
+}
+
+.btnContainer .btn2 {
+    background: #faaa31;
+}
+
+.btnContainer .btn1, .btnContainer .btn2 {
+    width: 120px;
+    height: 100%;
+    margin: 2px 0;
+    padding: 0 10px;
+}
+
+.btnContainer:hover .btn2 {
+    opacity: 1;
+    margin-top: 8px;
+}
+
+.btnContainer .btn2 {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.btnContainer .btn1 .btnFlag1, .btnContainer .btn2 .btnFlag2 {
+    display: inline-block;
+    width: 30px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+}
+
+.btnContainer .btn1 .btnFlag1 img, .btnContainer .btn2 .btnFlag2 img {
+    width: auto;
+    height: 14px;
+}
+
+.btnContainer .btn1 span, .btnContainer .btn2 span {
+    color: #fff;
+    font-size: 16px;
+    /* vertical-align: sub; */
+    display: inline-block;
+    height: 34px;
+    line-height: 34px;
+    vertical-align: top;
+}
+
+.btnContainer:hover .sjx {
+    top: 15px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.sjx {
+    display: inline-block;
+    border-right: 2px solid #fff;
+    border-top: 2px solid #fff;
+    height: 8px;
+    width: 8px;
+    /* margin: 50px auto 0; */
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    border-left: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    position: absolute;
+    right: -20px;
+    top: 10px;
+}
+
+/*switch language end*/
+
+
+
+
+
 nav {
     position: fixed;
     top: 0;
@@ -183,7 +282,7 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
 @media screen and (max-width: 1910px) {
     nav .navContainer .navRight {
         /*padding-right: 70px*/
-        /*margin-right: 100px;*/
+        margin-right: 100px;
     }
 
     nav .navContainer .navRight .downloadWhitePaperOne {
@@ -202,7 +301,7 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
 nav .navRight .switchLanguage{
     position: absolute;
     width: 60px;
-    right: -70px;
+    left: -170px;
 }
 
 nav .navRight .switchLanguage button{
@@ -3451,7 +3550,7 @@ footer .footerRight:hover i {
 }
 
 footer .footerRight:hover span {
-    color: #567fdc
+    color: #ffa81c
 }
 
 footer .footerRight {
