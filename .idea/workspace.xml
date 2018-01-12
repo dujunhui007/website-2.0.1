@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a082ded-b6be-4b35-817f-db9c5ebd98a6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/indexSwitchLanguage.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/dappSwitchLanguage.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/application.css" afterPath="$PROJECT_DIR$/css/application.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dapp1.html" afterPath="$PROJECT_DIR$/dapp1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dapp2.html" afterPath="$PROJECT_DIR$/dapp2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dapp3.html" afterPath="$PROJECT_DIR$/dapp3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dapp4.html" afterPath="$PROJECT_DIR$/dapp4.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/i18n/strings_en.properties" afterPath="$PROJECT_DIR$/resources/i18n/strings_en.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/i18n/strings_zh-CN.properties" afterPath="$PROJECT_DIR$/resources/i18n/strings_zh-CN.properties" />
     </list>
@@ -20,68 +26,91 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.66964287">
+    <splitter split-orientation="horizontal" split-proportion="0.44036698">
       <split-first>
-        <splitter split-orientation="horizontal" split-proportion="0.5433423">
-          <split-first>
-            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/index.html">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="363">
-                      <caret line="784" column="32" lean-forward="false" selection-start-line="784" selection-start-column="32" selection-end-line="784" selection-end-column="32" />
-                      <folding>
-                        <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                        <element signature="n#a#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                        <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                        <element signature="n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                        <element signature="n#ul#0;n#div#2;n#div#1;n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
-                        <element signature="n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
-                        <element signature="n#div#8;n#body#0;n#html#0;n#!!top" expanded="false" />
-                        <element signature="n#div#9;n#body#0;n#html#0;n#!!top" expanded="false" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="strings_zh-CN.properties" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/resources/i18n/strings_zh-CN.properties">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="448">
-                      <caret line="129" column="18" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="18" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-first>
-          <split-second>
-            <leaf>
-              <file leaf-file-name="strings_en.properties" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/resources/i18n/strings_en.properties">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="568">
-                      <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="129" selection-end-column="24" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-second>
-        </splitter>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="dapp1.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/dapp1.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="209">
+                  <caret line="117" column="39" lean-forward="false" selection-start-line="117" selection-start-column="23" selection-end-line="117" selection-end-column="39" />
+                  <folding>
+                    <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="dapp2.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/dapp2.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="162">
+                  <caret line="119" column="18" lean-forward="true" selection-start-line="119" selection-start-column="18" selection-end-line="119" selection-end-column="18" />
+                  <folding>
+                    <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="dapp3.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/dapp3.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="471">
+                  <caret line="124" column="35" lean-forward="false" selection-start-line="124" selection-start-column="35" selection-end-line="124" selection-end-column="35" />
+                  <folding>
+                    <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="dapp4.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/dapp4.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="271">
+                  <caret line="119" column="18" lean-forward="true" selection-start-line="119" selection-start-column="18" selection-end-line="119" selection-end-column="18" />
+                  <folding>
+                    <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/js/main.js">
+          <file leaf-file-name="strings_en.properties" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/resources/i18n/strings_en.properties">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="462">
-                  <caret line="218" column="60" lean-forward="false" selection-start-line="218" selection-start-column="60" selection-end-line="218" selection-end-column="60" />
-                  <folding>
-                    <element signature="e#658#714#0" expanded="false" />
-                  </folding>
+                <state relative-caret-position="388">
+                  <caret line="173" column="23" lean-forward="false" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="23" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="strings_zh-CN.properties" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/resources/i18n/strings_zh-CN.properties">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="388">
+                  <caret line="175" column="28" lean-forward="false" selection-start-line="175" selection-start-column="28" selection-end-line="175" selection-end-column="28" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="dappSwitchLanguage.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/js/dappSwitchLanguage.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="432">
+                  <caret line="107" column="74" lean-forward="true" selection-start-line="107" selection-start-column="74" selection-end-line="107" selection-end-column="74" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -109,10 +138,16 @@
         <option value="$PROJECT_DIR$/language-switch/js/main.js" />
         <option value="$PROJECT_DIR$/css/index.min.css" />
         <option value="$PROJECT_DIR$/sjdemo.html" />
+        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/application.css" />
+        <option value="$PROJECT_DIR$/dapp1.html" />
+        <option value="$PROJECT_DIR$/dapp2.html" />
+        <option value="$PROJECT_DIR$/dapp3.html" />
+        <option value="$PROJECT_DIR$/dapp4.html" />
         <option value="$PROJECT_DIR$/resources/i18n/strings_en.properties" />
         <option value="$PROJECT_DIR$/resources/i18n/strings_zh-CN.properties" />
-        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/js/dappSwitchLanguage.js" />
       </list>
     </option>
   </component>
@@ -155,13 +190,18 @@
             <path>
               <item name="website-2.0.1" type="b2602c69:ProjectViewProjectNode" />
               <item name="website-2.0.1" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="website-2.0.1" type="b2602c69:ProjectViewProjectNode" />
               <item name="website-2.0.1" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="i18n" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="index.less" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="website-2.0.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-2.0.1" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -181,9 +221,9 @@
       <recent name="C:\Asch-Items\asch-website-2\website-2.0.1\js" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Asch-Items\asch-website-2\website-2.0.1\js" />
       <recent name="C:\Asch-Items\asch-website-2\website-2.0.1\images" />
       <recent name="C:\Asch-Items\asch-website-2\website-2.0.1" />
-      <recent name="C:\Asch-Items\asch-website-2\website-2.0.1\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -209,18 +249,18 @@
       <option name="presentableId" value="Default" />
       <updated>1515599136334</updated>
       <workItem from="1515599138078" duration="2659000" />
-      <workItem from="1515637578789" duration="29565000" />
+      <workItem from="1515637578789" duration="36447000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32224000" />
+    <option name="totallyTimeSpent" value="39106000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16294643" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1078869" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -257,14 +297,24 @@
         <state relative-caret-position="2070">
           <caret line="162" column="16" lean-forward="false" selection-start-line="162" selection-start-column="13" selection-end-line="162" selection-end-column="16" />
           <folding>
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#a#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#ul#0;n#div#2;n#div#1;n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#8;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#9;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#10;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#12;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -278,14 +328,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dapp1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -354,14 +396,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="727">
-          <caret line="207" column="16" lean-forward="false" selection-start-line="207" selection-start-column="16" selection-end-line="207" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/china.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -378,46 +412,122 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/indexSwitchLanguage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="201" column="0" lean-forward="false" selection-start-line="201" selection-start-column="0" selection-end-line="210" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="71" column="12" lean-forward="false" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="784" column="32" lean-forward="false" selection-start-line="784" selection-start-column="32" selection-end-line="784" selection-end-column="32" />
+        <state relative-caret-position="333">
+          <caret line="25" column="10" lean-forward="false" selection-start-line="25" selection-start-column="10" selection-end-line="28" selection-end-column="18" />
           <folding>
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#a#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#ul#0;n#div#2;n#div#1;n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#8;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#9;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#10;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#12;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dapp3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="124" column="35" lean-forward="false" selection-start-line="124" selection-start-column="35" selection-end-line="124" selection-end-column="35" />
+          <folding>
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dapp4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="119" column="18" lean-forward="true" selection-start-line="119" selection-start-column="18" selection-end-line="119" selection-end-column="18" />
+          <folding>
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/i18n/strings_zh-CN.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="175" column="28" lean-forward="false" selection-start-line="175" selection-start-column="28" selection-end-line="175" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dapp1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="117" column="39" lean-forward="false" selection-start-line="117" selection-start-column="23" selection-end-line="117" selection-end-column="39" />
+          <folding>
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/i18n/strings_en.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="129" selection-end-column="24" />
+        <state relative-caret-position="388">
+          <caret line="173" column="23" lean-forward="false" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/i18n/strings_zh-CN.properties">
+    <entry file="file://$PROJECT_DIR$/dapp2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="129" column="18" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="218" column="60" lean-forward="false" selection-start-line="218" selection-start-column="60" selection-end-line="218" selection-end-column="60" />
+        <state relative-caret-position="162">
+          <caret line="119" column="18" lean-forward="true" selection-start-line="119" selection-start-column="18" selection-end-line="119" selection-end-column="18" />
           <folding>
-            <element signature="e#658#714#0" expanded="false" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/dappSwitchLanguage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="107" column="74" lean-forward="true" selection-start-line="107" selection-start-column="74" selection-end-line="107" selection-end-column="74" />
+          <folding />
         </state>
       </provider>
     </entry>

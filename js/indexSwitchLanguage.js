@@ -27,36 +27,6 @@ $(function () {
   });
 
 
-  // $('#button_login').click(function () {//点击登录按钮后验证用户信息
-  //   var id = $('#username').val();//用户名
-  //   var payload = {};
-  //   payload['password'] = $('#password').val();
-  //   payload = $.toJSON(payload);
-  //   $.ajax({
-  //     url: 'rest/users/' + id + '/tokens',//REST URI
-  //     type: 'POST',
-  //     data: payload, // Request body
-  //     contentType: 'application/json',
-  //     dataType: 'json',
-  //     success: function (data) {
-  //       //验证成功则显示欢迎信息和密钥
-  //       $('#content').html($.i18n.prop('string_hello', id, data.token));
-  //     },
-  //     error: function (jqXHR, textStatus, errorThrown) {
-  //       if (jqXHR.status == 403) {
-  //         //用户不存在
-  //         alert($.i18n.prop('string_usernotexist'));
-  //       } else if (jqXHR.status == 401) {
-  //         //密码错误
-  //         alert($.i18n.prop('string_wrongpassword'));
-  //       } else {
-  //         //其他异常信息
-  //         alert(errorThrown);
-  //       }
-  //     }
-  //   });
-  // });
-
 
 });
 
@@ -67,6 +37,7 @@ function loadProperties(str) {
     mode: 'map', //用Map的方式使用资源文件中的值
     callback: function () {//加载成功后设置显示内容
       $('#nav_home').html($.i18n.prop('string_navhome'));
+      $('#dappNavHome').html($.i18n.prop('string_dappNavHome'));
       $('#nav_introduction').html($.i18n.prop('string_navintroduction'));
       $('#nav_dapps').html($.i18n.prop('string_navdapps'));
       $('#nav_features').html($.i18n.prop('string_navfeatures'));

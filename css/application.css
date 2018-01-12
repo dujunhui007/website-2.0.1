@@ -67,6 +67,17 @@ nav .navContainer .navRight {
     padding-right: 100px;
 }
 
+nav .navRight .switchLanguage{
+    position: absolute;
+    left: -20px;
+}
+
+nav .navRight .switchLanguage button{
+    width: 60px;
+    height: 25px;
+    vertical-align: middle;
+}
+
 nav .navContainer .navRight .equalThan {
     height: 100%;
     font-size: 0;
