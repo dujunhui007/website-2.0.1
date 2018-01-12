@@ -101,8 +101,8 @@ $(function () {
       $("#home .homeContainer .homeContainerContent .aschHomeLinks .toGetStarted .toGetStarted1").attr("src","images/comeSoon1.png");
       $("#home .homeContainer .homeContainerContent .aschHomeLinks .toGetStarted .toGetStarted2").attr("src","images/getstarted1.png");
 
-      $("#home .homeContainer .homeContainerContent .aschHomeLinks .toWhitePaper .toWhitePaper1").attr("src","images/WhitePaper2.png");
-      $("#home .homeContainer .homeContainerContent .aschHomeLinks .toWhitePaper .toWhitePaper2").attr("src","images/WhitePaper1.png");
+      $("#home .homeContainer .homeContainerContent .aschHomeLinks .toWhitePaper .toWhitePaper1").attr("src","images/whitePaper2.png");
+      $("#home .homeContainer .homeContainerContent .aschHomeLinks .toWhitePaper .toWhitePaper2").attr("src","images/whitePaper1.png");
       $("#scenarios .scenariosBackground").css({"width":"76%","left":"13%"});
 
 

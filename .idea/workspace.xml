@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a082ded-b6be-4b35-817f-db9c5ebd98a6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/aschVideoText1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.min.css" afterPath="$PROJECT_DIR$/css/index.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/indexSwitchLanguage.js" afterPath="$PROJECT_DIR$/js/indexSwitchLanguage.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,10 +16,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.43722564">
+    <splitter split-orientation="horizontal" split-proportion="0.6526225">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="211">
@@ -42,11 +38,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="indexSwitchLanguage.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="indexSwitchLanguage.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/indexSwitchLanguage.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="312">
-                  <caret line="67" column="12" lean-forward="true" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="12" />
+                <state relative-caret-position="468">
+                  <caret line="104" column="118" lean-forward="false" selection-start-line="104" selection-start-column="118" selection-end-line="104" selection-end-column="118" />
                   <folding />
                 </state>
               </provider>
@@ -56,30 +52,12 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="index.min.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.min.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/index.min.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="472">
+                <state relative-caret-position="772">
                   <caret line="2604" column="0" lean-forward="true" selection-start-line="2604" selection-start-column="0" selection-end-line="2604" selection-end-column="0" />
                   <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="indexSwitchLanguage.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/js/indexSwitchLanguage.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="200">
-                  <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#1054#1132#0" expanded="false" />
-                    <element signature="e#1203#1283#0" expanded="false" />
-                    <element signature="e#2322#2450#0" expanded="false" />
-                    <element signature="e#2597#2672#0" expanded="false" />
-                    <element signature="e#2784#2859#0" expanded="false" />
-                    <element signature="e#3745#3823#0" expanded="false" />
-                    <element signature="e#3894#3974#0" expanded="false" />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -171,6 +149,16 @@
             <path>
               <item name="website-2.0.1" type="b2602c69:ProjectViewProjectNode" />
               <item name="website-2.0.1" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="website-2.0.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-2.0.1" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="website-2.0.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-2.0.1" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -225,18 +213,18 @@
       <option name="presentableId" value="Default" />
       <updated>1515599136334</updated>
       <workItem from="1515599138078" duration="2659000" />
-      <workItem from="1515637578789" duration="53977000" />
+      <workItem from="1515637578789" duration="54375000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56636000" />
+    <option name="totallyTimeSpent" value="57034000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15401785" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13467261" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -474,11 +462,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/whitePaper1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/getstarted1.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -489,9 +472,14 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/whitePaper1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/index.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
+        <state relative-caret-position="772">
           <caret line="2604" column="0" lean-forward="true" selection-start-line="2604" selection-start-column="0" selection-end-line="2604" selection-end-column="0" />
           <folding />
         </state>
@@ -516,17 +504,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/indexSwitchLanguage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="e#1054#1132#0" expanded="false" />
-            <element signature="e#1203#1283#0" expanded="false" />
-            <element signature="e#2322#2450#0" expanded="false" />
-            <element signature="e#2597#2672#0" expanded="false" />
-            <element signature="e#2784#2859#0" expanded="false" />
-            <element signature="e#3745#3823#0" expanded="false" />
-            <element signature="e#3894#3974#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="468">
+          <caret line="104" column="118" lean-forward="false" selection-start-line="104" selection-start-column="118" selection-end-line="104" selection-end-column="118" />
+          <folding />
         </state>
       </provider>
     </entry>
