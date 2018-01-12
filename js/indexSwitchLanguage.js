@@ -3,7 +3,7 @@
  */
 $(function () {
 
-  loadProperties("strings_zh-CN");
+  loadProperties("strings_en");
   //
   // $("#btn .simplifiedChinese").click(function () {
   //   loadProperties("strings_zh-CN");
