@@ -8,12 +8,36 @@ $(function () {
 
 
   $("nav .navContainer .navRight .switchLanguage  button").click(function () {
-    // alert($(this).attr("class"));
     if ($(this).attr("class") == "switchToEnglish") {
       loadProperties("strings_en");
 
-      $("#home .aschHomeLinks a:nth-child(1) img:nth-child(1)").css("top","15px");
-      $("#home .aschHomeLinks a:nth-child(1) img:nth-child(2)").css("top","12px");
+      $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li").css("font-size","16px");
+
+      $("#introduction .introductionContainer .aschVideo .videoText").attr("src","images/aschVideoText.png");
+
+
+      $(".homeLinksContainer ul.homeLinks li p").css("font-size","16px");
+      $(".homeLinksContainer ul.homeLinks li p:nth-child(2)").css("font-size","20px");
+      $(".homeLinksContainer ul.homeLinks li a .homeLinkGitHub").css("font-size","20px");
+
+      $(".section .sectionTop span").css("font-size","36px");
+
+      $("#features .featuresTopContainer .featuresTop h4").css({"font-weight":"300","font-size":"48px"});
+      $("#featuresTwo .featuresBottomContainer .featuresBottom h4").css({"font-weight":"300","font-size":"48px"});
+
+
+
+      $("#home .aschHomeLinks a:nth-child(1) img:nth-child(2)").css({
+        "top":"12px",
+        "width":"120px",
+        "left":"39px"
+      });
+      $("#home .aschHomeLinks a:nth-child(1) img:nth-child(1)").css({
+        "top":"15px",
+        "width":"120px",
+        "left":"-125px"
+      });
+
       $("#home .homeContainer .homeContainerContent .aschHomeImg1 img").attr("src","images/aschHomeUKImg.png");
       $("#home .homeContainer .homeContainerContent .aschHomeLinks .toGetStarted .toGetStarted1").attr("src","images/comeSoon.png");
       $("#home .homeContainer .homeContainerContent .aschHomeLinks .toGetStarted .toGetStarted2").attr("src","images/Getstarted.png");
@@ -44,8 +68,34 @@ $(function () {
     } else {
       loadProperties("strings_zh-CN");
 
-      $("#home .aschHomeLinks a:nth-child(1) img:nth-child(2)").css("top","9px");
-      $("#home .aschHomeLinks a:nth-child(1) img:nth-child(1)").css("top","10px");
+      $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li").css("font-size","20px");
+
+      $("#introduction .introductionContainer .aschVideo .videoText").attr("src","images/aschVideoText1.png");
+
+      $("#features .featuresTopContainer .featuresTop h4").css({"font-weight":"400","font-size":"40px"});
+
+      $("#featuresTwo .featuresBottomContainer .featuresBottom h4").css({"font-weight":"400","font-size":"40px"});
+
+      $(".section .sectionTop span").css("font-size","32px");
+
+      $(".homeLinksContainer ul.homeLinks li p").css("font-size","14px");
+      $(".homeLinksContainer ul.homeLinks li p:nth-child(2)").css("font-size","18px");
+      $(".homeLinksContainer ul.homeLinks li a .homeLinkGitHub").css("font-size","20px");
+
+
+      $("#home .aschHomeLinks a:nth-child(1) img:nth-child(2)").css({
+        "top":"12px",
+        "width":"100px",
+        "left":"50px"
+      });
+      $("#home .aschHomeLinks a:nth-child(1) img:nth-child(1)").css({
+        "top":"13px",
+        "width":"100px",
+        "left":"-115px"
+      });
+
+
+
 
       $("#home .homeContainer .homeContainerContent .aschHomeImg1 img").attr("src","images/aschHomeChinaImg.png");
       $("#home .homeContainer .homeContainerContent .aschHomeLinks .toGetStarted .toGetStarted1").attr("src","images/comeSoon1.png");
