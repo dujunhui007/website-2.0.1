@@ -4,25 +4,60 @@
 $(function () {
 
   loadProperties("strings_en");
-  //
-  // $("#btn .simplifiedChinese").click(function () {
-  //   loadProperties("strings_zh-CN");
-  // });
-  //
-  // $("#btn .traditionalChinese").click(function () {
-  //   loadProperties("strings_zh-TW");
-  // });
-  //
-  // $("#btn .switchToEnglish").click(function () {
-  //   loadProperties("strings_en");
-  // });
 
   $("nav .navContainer .navRight .switchLanguage  button").click(function () {
     // alert($(this).attr("class"));
     if ($(this).attr("class") == "switchToEnglish") {
       loadProperties("strings_en");
+      $("#home .homeContainer .homeContainerContent .aschHomeImg1 img").attr("src","images/aschHomeUKImg.png");
+      $("#home .homeContainer .homeContainerContent .aschHomeLinks .toGetStarted .toGetStarted1").attr("src","images/comeSoon.png");
+      $("#home .homeContainer .homeContainerContent .aschHomeLinks .toGetStarted .toGetStarted2").attr("src","images/Getstarted.png");
+
+      $("#home .homeContainer .homeContainerContent .aschHomeLinks .toWhitePaper .toWhitePaper1").attr("src","images/white1.png");
+      $("#home .homeContainer .homeContainerContent .aschHomeLinks .toWhitePaper .toWhitePaper2").attr("src","images/WhitePaper.png");
+      $("#scenarios .scenariosBackground").css({"width":"82%","left":"9%"});
+      $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li:nth-child(3)").css({"padding-top":"5px"});
+
+      // if(screen.width>1910){
+      //   $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li:nth-child(3)").css({"padding-top":"0px"});
+      // }
+
+      if(screen.width>1910){
+        $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li:nth-child(3)").css({"padding-top":"0px"});
+      }else if((1640<screen.width)&&(screen.width<1910)) {
+        $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li:nth-child(3)").css({
+          "line-height": "50px",
+          "padding-top": "5px"
+        });
+      }else {
+        $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li:nth-child(3)").css({
+          "line-height": "25px",
+          "padding-top": "5px"
+        });
+      }
+
     } else {
       loadProperties("strings_zh-CN");
+      $("#home .homeContainer .homeContainerContent .aschHomeImg1 img").attr("src","images/aschHomeChinaImg.png");
+      $("#home .homeContainer .homeContainerContent .aschHomeLinks .toGetStarted .toGetStarted1").attr("src","images/comeSoon1.png");
+      $("#home .homeContainer .homeContainerContent .aschHomeLinks .toGetStarted .toGetStarted2").attr("src","images/getstarted1.png");
+
+      $("#home .homeContainer .homeContainerContent .aschHomeLinks .toWhitePaper .toWhitePaper1").attr("src","images/WhitePaper2.png");
+      $("#home .homeContainer .homeContainerContent .aschHomeLinks .toWhitePaper .toWhitePaper2").attr("src","images/WhitePaper1.png");
+      $("#scenarios .scenariosBackground").css({"width":"76%","left":"13%"});
+
+
+        $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li:nth-child(3)").css({"padding-top":"17px"});
+
+      if(screen.width>1910){
+        $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li:nth-child(3)").css({"padding-top":"0px"});
+      }
+
+      if((1640<screen.width)&&(screen.width<1910)){
+        alert(screen.width);
+        $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li:nth-child(3)").css({"line-height":"25px"});
+      }
+
     }
   });
 
