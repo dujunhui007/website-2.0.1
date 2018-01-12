@@ -5,10 +5,15 @@ $(function () {
 
   loadProperties("strings_en");
 
+
+
   $("nav .navContainer .navRight .switchLanguage  button").click(function () {
     // alert($(this).attr("class"));
     if ($(this).attr("class") == "switchToEnglish") {
       loadProperties("strings_en");
+
+      $("#home .aschHomeLinks a:nth-child(1) img:nth-child(1)").css("top","15px");
+      $("#home .aschHomeLinks a:nth-child(1) img:nth-child(2)").css("top","12px");
       $("#home .homeContainer .homeContainerContent .aschHomeImg1 img").attr("src","images/aschHomeUKImg.png");
       $("#home .homeContainer .homeContainerContent .aschHomeLinks .toGetStarted .toGetStarted1").attr("src","images/comeSoon.png");
       $("#home .homeContainer .homeContainerContent .aschHomeLinks .toGetStarted .toGetStarted2").attr("src","images/Getstarted.png");
@@ -38,6 +43,10 @@ $(function () {
 
     } else {
       loadProperties("strings_zh-CN");
+
+      $("#home .aschHomeLinks a:nth-child(1) img:nth-child(2)").css("top","9px");
+      $("#home .aschHomeLinks a:nth-child(1) img:nth-child(1)").css("top","10px");
+
       $("#home .homeContainer .homeContainerContent .aschHomeImg1 img").attr("src","images/aschHomeChinaImg.png");
       $("#home .homeContainer .homeContainerContent .aschHomeLinks .toGetStarted .toGetStarted1").attr("src","images/comeSoon1.png");
       $("#home .homeContainer .homeContainerContent .aschHomeLinks .toGetStarted .toGetStarted2").attr("src","images/getstarted1.png");
