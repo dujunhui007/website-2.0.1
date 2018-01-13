@@ -12,27 +12,18 @@ $(function () {
   if (getCookieKey) {
     // alert(getCookieKey);
     if (getCookieKey == 0) {
-      $(".switchLanguageBtn .btnContainer .btn1 .btnFlag1 img").attr("src", "images/uk.png");
-      $(".switchLanguageBtn .btnContainer .btn2 .btnFlag2 img").attr("src", "images/china.png");
-      $(".switchLanguageBtn .btnContainer .btn1  .btnText1").html("English");
-      $(".switchLanguageBtn .btnContainer .btn2  .btnText2").html("中文简体");
       loadProperties("strings_en");
+      switchEn();
       window.flag = 1;
     } else {
-      $(".switchLanguageBtn .btnContainer .btn1 .btnFlag1 img").attr("src", "images/china.png");
-      $(".switchLanguageBtn .btnContainer .btn2 .btnFlag2 img").attr("src", "images/uk.png");
-      $(".switchLanguageBtn .btnContainer .btn1  .btnText1").html("中文简体");
-      $(".switchLanguageBtn .btnContainer .btn2  .btnText2").html("English");
       loadProperties("strings_zh-CN");
+      switchZh();
       window.flag = 0;
     }
     window.flag = getCookieKey;
   } else {
-    $(".switchLanguageBtn .btnContainer .btn1 .btnFlag1 img").attr("src", "images/uk.png");
-    $(".switchLanguageBtn .btnContainer .btn2 .btnFlag2 img").attr("src", "images/china.png");
-    $(".switchLanguageBtn .btnContainer .btn1  .btnText1").html("English");
-    $(".switchLanguageBtn .btnContainer .btn2  .btnText2").html("中文简体");
     loadProperties("strings_en");
+    switchEn();
     // alert(getCookieKey);
     window.flag = 0;
   }
@@ -51,131 +42,136 @@ $(function () {
     }
   }
 
+  function switchEn() {
+    $(".switchLanguageBtn .btnContainer .btn1 .btnFlag1 img").attr("src", "images/uk.png");
+    $(".switchLanguageBtn .btnContainer .btn2 .btnFlag2 img").attr("src", "images/china.png");
+    $(".switchLanguageBtn .btnContainer .btn1  .btnText1").html("English");
+    $(".switchLanguageBtn .btnContainer .btn2  .btnText2").html("中文简体");
+
+    $("#downloads .downloadsContainer .downloadsContainerLeft .dlsit-list li .dlistBtns a:nth-child(1)").attr("data-text", "Download");
+    $("#downloads .downloadsContainer .downloadsContainerLeft .dlsit-list li .dlistBtns a:nth-child(2)").attr("data-text", "More");
+
+
+    $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li").css("font-size", "16px");
+
+    $("#introduction .introductionContainer .aschVideo .videoText").attr("src", "images/aschVideoText.png");
+
+
+    $(".homeLinksContainer ul.homeLinks li p").css("font-size", "16px");
+    $(".homeLinksContainer ul.homeLinks li p:nth-child(2)").css("font-size", "20px");
+    $(".homeLinksContainer ul.homeLinks li a .homeLinkGitHub").css("font-size", "20px");
+
+    $(".section .sectionTop span").css("font-size", "36px");
+
+    $("#features .featuresTopContainer .featuresTop h4").css({"font-weight": "300", "font-size": "48px"});
+    $("#featuresTwo .featuresBottomContainer .featuresBottom h4").css({"font-weight": "300", "font-size": "48px"});
+
+    $("#home .aschHomeLinks a:nth-child(1) img:nth-child(2)").css({
+      "top": "12px",
+      "width": "120px",
+      "left": "39px"
+    });
+    $("#home .aschHomeLinks a:nth-child(1) img:nth-child(1)").css({
+      "top": "15px",
+      "width": "120px",
+      "left": "-125px"
+    });
+
+    $("#home .homeContainer .homeContainerContent .aschHomeImg1 img").attr("src", "images/aschHomeUKImg.png");
+    $("#home .homeContainer .homeContainerContent .aschHomeLinks .toGetStarted .toGetStarted1").attr("src", "images/comeSoon.png");
+    $("#home .homeContainer .homeContainerContent .aschHomeLinks .toGetStarted .toGetStarted2").attr("src", "images/Getstarted.png");
+
+    $("#home .homeContainer .homeContainerContent .aschHomeLinks .toWhitePaper .toWhitePaper1").attr("src", "images/white1.png");
+    $("#home .homeContainer .homeContainerContent .aschHomeLinks .toWhitePaper .toWhitePaper2").attr("src", "images/WhitePaper.png");
+    $("#scenarios .scenariosBackground").css({"width": "82%", "left": "9%"});
+    $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li:nth-child(3)").css({"padding-top": "5px"});
+
+    if (screen.width > 1910) {
+      $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li:nth-child(3)").css({"padding-top": "0px"});
+    } else if ((1640 < screen.width) && (screen.width < 1910)) {
+      $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li:nth-child(3)").css({
+        "line-height": "50px",
+        "padding-top": "5px"
+      });
+    } else {
+      $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li:nth-child(3)").css({
+        "line-height": "25px",
+        "padding-top": "5px"
+      });
+    }
+  }
+
+  function switchZh(){
+    $(".switchLanguageBtn .btnContainer .btn1 .btnFlag1 img").attr("src", "images/china.png");
+    $(".switchLanguageBtn .btnContainer .btn2 .btnFlag2 img").attr("src", "images/uk.png");
+    $(".switchLanguageBtn .btnContainer .btn1  .btnText1").html("中文简体");
+    $(".switchLanguageBtn .btnContainer .btn2  .btnText2").html("English");
+
+    $("#downloads .downloadsContainer .downloadsContainerLeft .dlsit-list li .dlistBtns a:nth-child(1)").attr("data-text", "下载");
+    $("#downloads .downloadsContainer .downloadsContainerLeft .dlsit-list li .dlistBtns a:nth-child(2)").attr("data-text", "更多");
+
+    $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li").css("font-size", "20px");
+
+    $("#introduction .introductionContainer .aschVideo .videoText").attr("src", "images/aschVideoText1.png");
+
+    $("#features .featuresTopContainer .featuresTop h4").css({"font-weight": "400", "font-size": "40px"});
+
+    $("#featuresTwo .featuresBottomContainer .featuresBottom h4").css({"font-weight": "400", "font-size": "40px"});
+
+    $(".section .sectionTop span").css("font-size", "32px");
+
+    $(".homeLinksContainer ul.homeLinks li p").css("font-size", "14px");
+    $(".homeLinksContainer ul.homeLinks li p:nth-child(2)").css("font-size", "18px");
+    $(".homeLinksContainer ul.homeLinks li a .homeLinkGitHub").css("font-size", "20px");
+
+
+    $("#home .aschHomeLinks a:nth-child(1) img:nth-child(2)").css({
+      "top": "12px",
+      "width": "100px",
+      "left": "50px"
+    });
+    $("#home .aschHomeLinks a:nth-child(1) img:nth-child(1)").css({
+      "top": "13px",
+      "width": "100px",
+      "left": "-115px"
+    });
+
+
+    $("#home .homeContainer .homeContainerContent .aschHomeImg1 img").attr("src", "images/aschHomeChinaImg.png");
+    $("#home .homeContainer .homeContainerContent .aschHomeLinks .toGetStarted .toGetStarted1").attr("src", "images/comeSoon1.png");
+    $("#home .homeContainer .homeContainerContent .aschHomeLinks .toGetStarted .toGetStarted2").attr("src", "images/getstarted1.png");
+
+    $("#home .homeContainer .homeContainerContent .aschHomeLinks .toWhitePaper .toWhitePaper1").attr("src", "images/whitePaper2.png");
+    $("#home .homeContainer .homeContainerContent .aschHomeLinks .toWhitePaper .toWhitePaper2").attr("src", "images/whitePaper1.png");
+    $("#scenarios .scenariosBackground").css({"width": "76%", "left": "13%"});
+
+
+    $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li:nth-child(3)").css({"padding-top": "17px"});
+
+    if (screen.width > 1910) {
+      $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li:nth-child(3)").css({"padding-top": "0px"});
+    }
+
+    if ((1640 < screen.width) && (screen.width < 1910)) {
+      alert(screen.width);
+      $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li:nth-child(3)").css({"line-height": "25px"});
+    }
+  }
+
+
 
   $(".switchLanguageBtn .btnContainer .btn2").click(function () {
 
     if (flag == 1) {
-      // alert(1);
       loadProperties("strings_en");
-      $(".switchLanguageBtn .btnContainer .btn1 .btnFlag1 img").attr("src", "images/uk.png");
-      $(".switchLanguageBtn .btnContainer .btn2 .btnFlag2 img").attr("src", "images/china.png");
-      $(".switchLanguageBtn .btnContainer .btn1  .btnText1").html("English");
-      $(".switchLanguageBtn .btnContainer .btn2  .btnText2").html("中文简体");
       window.flag = 0;
       setCookie(languageFlag, flag);
-
-      $("#downloads .downloadsContainer .downloadsContainerLeft .dlsit-list li .dlistBtns a:nth-child(1)").attr("data-text", "Download");
-      $("#downloads .downloadsContainer .downloadsContainerLeft .dlsit-list li .dlistBtns a:nth-child(2)").attr("data-text", "More");
-
-
-      $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li").css("font-size", "16px");
-
-      $("#introduction .introductionContainer .aschVideo .videoText").attr("src", "images/aschVideoText.png");
-
-
-      $(".homeLinksContainer ul.homeLinks li p").css("font-size", "16px");
-      $(".homeLinksContainer ul.homeLinks li p:nth-child(2)").css("font-size", "20px");
-      $(".homeLinksContainer ul.homeLinks li a .homeLinkGitHub").css("font-size", "20px");
-
-      $(".section .sectionTop span").css("font-size", "36px");
-
-      $("#features .featuresTopContainer .featuresTop h4").css({"font-weight": "300", "font-size": "48px"});
-      $("#featuresTwo .featuresBottomContainer .featuresBottom h4").css({"font-weight": "300", "font-size": "48px"});
-
-      $("#home .aschHomeLinks a:nth-child(1) img:nth-child(2)").css({
-        "top": "12px",
-        "width": "120px",
-        "left": "39px"
-      });
-      $("#home .aschHomeLinks a:nth-child(1) img:nth-child(1)").css({
-        "top": "15px",
-        "width": "120px",
-        "left": "-125px"
-      });
-
-      $("#home .homeContainer .homeContainerContent .aschHomeImg1 img").attr("src", "images/aschHomeUKImg.png");
-      $("#home .homeContainer .homeContainerContent .aschHomeLinks .toGetStarted .toGetStarted1").attr("src", "images/comeSoon.png");
-      $("#home .homeContainer .homeContainerContent .aschHomeLinks .toGetStarted .toGetStarted2").attr("src", "images/Getstarted.png");
-
-      $("#home .homeContainer .homeContainerContent .aschHomeLinks .toWhitePaper .toWhitePaper1").attr("src", "images/white1.png");
-      $("#home .homeContainer .homeContainerContent .aschHomeLinks .toWhitePaper .toWhitePaper2").attr("src", "images/WhitePaper.png");
-      $("#scenarios .scenariosBackground").css({"width": "82%", "left": "9%"});
-      $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li:nth-child(3)").css({"padding-top": "5px"});
-
-      if (screen.width > 1910) {
-        $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li:nth-child(3)").css({"padding-top": "0px"});
-      } else if ((1640 < screen.width) && (screen.width < 1910)) {
-        $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li:nth-child(3)").css({
-          "line-height": "50px",
-          "padding-top": "5px"
-        });
-      } else {
-        $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li:nth-child(3)").css({
-          "line-height": "25px",
-          "padding-top": "5px"
-        });
-      }
-
+      switchEn();
     } else {
-      // alert(2);
       loadProperties("strings_zh-CN");
-
-      $(".switchLanguageBtn .btnContainer .btn1 .btnFlag1 img").attr("src", "images/china.png");
-      $(".switchLanguageBtn .btnContainer .btn2 .btnFlag2 img").attr("src", "images/uk.png");
-      $(".switchLanguageBtn .btnContainer .btn1  .btnText1").html("中文简体");
-      $(".switchLanguageBtn .btnContainer .btn2  .btnText2").html("English");
       window.flag = 1;
       setCookie(languageFlag, flag);
-
-      $("#downloads .downloadsContainer .downloadsContainerLeft .dlsit-list li .dlistBtns a:nth-child(1)").attr("data-text", "下载");
-      $("#downloads .downloadsContainer .downloadsContainerLeft .dlsit-list li .dlistBtns a:nth-child(2)").attr("data-text", "更多");
-
-      $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li").css("font-size", "20px");
-
-      $("#introduction .introductionContainer .aschVideo .videoText").attr("src", "images/aschVideoText1.png");
-
-      $("#features .featuresTopContainer .featuresTop h4").css({"font-weight": "400", "font-size": "40px"});
-
-      $("#featuresTwo .featuresBottomContainer .featuresBottom h4").css({"font-weight": "400", "font-size": "40px"});
-
-      $(".section .sectionTop span").css("font-size", "32px");
-
-      $(".homeLinksContainer ul.homeLinks li p").css("font-size", "14px");
-      $(".homeLinksContainer ul.homeLinks li p:nth-child(2)").css("font-size", "18px");
-      $(".homeLinksContainer ul.homeLinks li a .homeLinkGitHub").css("font-size", "20px");
-
-
-      $("#home .aschHomeLinks a:nth-child(1) img:nth-child(2)").css({
-        "top": "12px",
-        "width": "100px",
-        "left": "50px"
-      });
-      $("#home .aschHomeLinks a:nth-child(1) img:nth-child(1)").css({
-        "top": "13px",
-        "width": "100px",
-        "left": "-115px"
-      });
-
-
-      $("#home .homeContainer .homeContainerContent .aschHomeImg1 img").attr("src", "images/aschHomeChinaImg.png");
-      $("#home .homeContainer .homeContainerContent .aschHomeLinks .toGetStarted .toGetStarted1").attr("src", "images/comeSoon1.png");
-      $("#home .homeContainer .homeContainerContent .aschHomeLinks .toGetStarted .toGetStarted2").attr("src", "images/getstarted1.png");
-
-      $("#home .homeContainer .homeContainerContent .aschHomeLinks .toWhitePaper .toWhitePaper1").attr("src", "images/whitePaper2.png");
-      $("#home .homeContainer .homeContainerContent .aschHomeLinks .toWhitePaper .toWhitePaper2").attr("src", "images/whitePaper1.png");
-      $("#scenarios .scenariosBackground").css({"width": "76%", "left": "13%"});
-
-
-      $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li:nth-child(3)").css({"padding-top": "17px"});
-
-      if (screen.width > 1910) {
-        $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li:nth-child(3)").css({"padding-top": "0px"});
-      }
-
-      if ((1640 < screen.width) && (screen.width < 1910)) {
-        alert(screen.width);
-        $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li:nth-child(3)").css({"line-height": "25px"});
-      }
+      switchZh();
     }
   });
 });
