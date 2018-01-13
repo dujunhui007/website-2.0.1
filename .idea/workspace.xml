@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0a082ded-b6be-4b35-817f-db9c5ebd98a6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/indexSwitchLanguage.js" afterPath="$PROJECT_DIR$/js/indexSwitchLanguage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/application.css" afterPath="$PROJECT_DIR$/css/application.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +21,8 @@
       <file leaf-file-name="index.min.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/index.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="184">
+              <caret line="3537" column="0" lean-forward="true" selection-start-line="3537" selection-start-column="0" selection-end-line="3537" selection-end-column="0" />
               <folding>
                 <element signature="e#694#734#0" expanded="false" />
                 <element signature="e#756#911#0" expanded="false" />
@@ -34,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="application.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/application.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="183" column="18" lean-forward="false" selection-start-line="183" selection-start-column="18" selection-end-line="183" selection-end-column="18" />
+            <state relative-caret-position="216">
+              <caret line="663" column="11" lean-forward="true" selection-start-line="663" selection-start-column="11" selection-end-line="663" selection-end-column="11" />
               <folding>
                 <element signature="e#721#761#0" expanded="false" />
                 <element signature="e#783#938#0" expanded="false" />
@@ -60,7 +60,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1877">
@@ -149,9 +149,9 @@
         <option value="$PROJECT_DIR$/dapp4.html" />
         <option value="$PROJECT_DIR$/js/dappSwitchLanguage.js" />
         <option value="$PROJECT_DIR$/css/index.min.css" />
-        <option value="$PROJECT_DIR$/css/application.css" />
         <option value="$PROJECT_DIR$/btnHoverCss/buttons.css" />
         <option value="$PROJECT_DIR$/js/indexSwitchLanguage.js" />
+        <option value="$PROJECT_DIR$/css/application.css" />
       </list>
     </option>
   </component>
@@ -259,12 +259,12 @@
       <updated>1515599136334</updated>
       <workItem from="1515599138078" duration="2659000" />
       <workItem from="1515637578789" duration="60965000" />
-      <workItem from="1515762928783" duration="19887000" />
+      <workItem from="1515762928783" duration="20232000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83511000" />
+    <option name="totallyTimeSpent" value="83856000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -595,34 +595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="e#694#734#0" expanded="false" />
-            <element signature="e#756#911#0" expanded="false" />
-            <element signature="e#1245#1283#0" expanded="false" />
-            <element signature="e#1555#1643#0" expanded="false" />
-            <element signature="e#1650#2124#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="183" column="18" lean-forward="false" selection-start-line="183" selection-start-column="18" selection-end-line="183" selection-end-column="18" />
-          <folding>
-            <element signature="e#721#761#0" expanded="false" />
-            <element signature="e#783#938#0" expanded="false" />
-            <element signature="e#1272#1310#0" expanded="false" />
-            <element signature="e#1582#1670#0" expanded="false" />
-            <element signature="e#1677#2151#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/dappSwitchLanguage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
@@ -680,6 +652,34 @@
             <element signature="n#div#1;n#div#0;n#div#12;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#div#12;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#div#0;n#div#12;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="3537" column="0" lean-forward="true" selection-start-line="3537" selection-start-column="0" selection-end-line="3537" selection-end-column="0" />
+          <folding>
+            <element signature="e#694#734#0" expanded="false" />
+            <element signature="e#756#911#0" expanded="false" />
+            <element signature="e#1245#1283#0" expanded="false" />
+            <element signature="e#1555#1643#0" expanded="false" />
+            <element signature="e#1650#2124#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="663" column="11" lean-forward="true" selection-start-line="663" selection-start-column="11" selection-end-line="663" selection-end-column="11" />
+          <folding>
+            <element signature="e#721#761#0" expanded="false" />
+            <element signature="e#783#938#0" expanded="false" />
+            <element signature="e#1272#1310#0" expanded="false" />
+            <element signature="e#1582#1670#0" expanded="false" />
+            <element signature="e#1677#2151#0" expanded="false" />
           </folding>
         </state>
       </provider>
