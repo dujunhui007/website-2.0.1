@@ -2816,7 +2816,7 @@ ul.homeLinks li:nth-child(4) i {
     text-align: center;
     border-radius: 4px;
     background: #567fdc;
-    font-size: 20px
+    font-size: 24px
 }
 
 #downloads .downloadsContainer .downloadsContainerLeft .dlsit-list li .dlistBtns a:nth-child(2):hover {
@@ -2841,7 +2841,7 @@ ul.homeLinks li:nth-child(4) i {
     color: #000;
     opacity: .7;
     filter: alpha(opacity=70);
-    font-size: 20px
+    font-size: 24px
 }
 
 #downloads .downloadsContainer .downloadsContainerLeft .dlsit-list li .dlistBtns a {
