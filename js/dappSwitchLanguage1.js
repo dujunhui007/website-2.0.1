@@ -6,33 +6,18 @@ $(function () {
   languageFlag = "languageFlag";
   getCookieKey = getCookie(languageFlag);
   if (getCookieKey) {
-    // console.log(getCookieKey);
+    console.log(getCookieKey);
     window.flag = getCookieKey;
-    // console.log(window.flag);
-    if (getCookieKey == 0) {
+    console.log(window.flag);
+    if(getCookieKey===0){
       loadProperties("strings_en");
-      $(".switchLanguageBtn .btnContainer .btn1 .btnFlag1 img").attr("src", "images/uk.png");
-      $(".switchLanguageBtn .btnContainer .btn2 .btnFlag2 img").attr("src", "images/china.png");
-      $(".switchLanguageBtn .btnContainer .btn1  .btnText1").html("English");
-      $(".switchLanguageBtn .btnContainer .btn2  .btnText2").html("中文简体");
-      window.flag = 0;
-    } else {
+    }else {
       loadProperties("strings_zh-CN");
-      $(".switchLanguageBtn .btnContainer .btn1 .btnFlag1 img").attr("src", "images/china.png");
-      $(".switchLanguageBtn .btnContainer .btn2 .btnFlag2 img").attr("src", "images/uk.png");
-      $(".switchLanguageBtn .btnContainer .btn1  .btnText1").html("中文简体");
-      $(".switchLanguageBtn .btnContainer .btn2  .btnText2").html("English");
-      window.flag = 1;
     }
 
   } else {
-    // alert("b" + getCookieKey);
-    $(".switchLanguageBtn .btnContainer .btn1 .btnFlag1 img").attr("src", "images/uk.png");
-    $(".switchLanguageBtn .btnContainer .btn2 .btnFlag2 img").attr("src", "images/china.png");
-    $(".switchLanguageBtn .btnContainer .btn1  .btnText1").html("English");
-    $(".switchLanguageBtn .btnContainer .btn2  .btnText2").html("中文简体");
-    loadProperties("strings_en");
-    window.flag = 1;
+    alert("b"+getCookieKey);
+    window.flag = 0;
   }
 
 
@@ -50,25 +35,16 @@ $(function () {
   }
 
 
-  $(".switchLanguageBtn .btnContainer .btn2").click(function () {
-    // alert(window.flag);
-    if (flag == 1) {
-      // alert(window.flag);
-      $(".switchLanguageBtn .btnContainer .btn1 .btnFlag1 img").attr("src", "images/uk.png");
-      $(".switchLanguageBtn .btnContainer .btn2 .btnFlag2 img").attr("src", "images/china.png");
-      $(".switchLanguageBtn .btnContainer .btn1  .btnText1").html("English");
-      $(".switchLanguageBtn .btnContainer .btn2  .btnText2").html("中文简体");
+  $("nav .navContainer .navRight .switchLanguage  button").click(function () {
+    if (flag===0) {
+      console.log(window.flag);
       loadProperties("strings_en");
-      window.flag = 0;
+      window.flag = 1;
       setCookie(languageFlag, flag);
     } else {
-      // alert(window.flag);
-      $(".switchLanguageBtn .btnContainer .btn1 .btnFlag1 img").attr("src", "images/china.png");
-      $(".switchLanguageBtn .btnContainer .btn2 .btnFlag2 img").attr("src", "images/uk.png");
-      $(".switchLanguageBtn .btnContainer .btn1  .btnText1").html("中文简体");
-      $(".switchLanguageBtn .btnContainer .btn2  .btnText2").html("English");
+      console.log(window.flag);
       loadProperties("strings_zh-CN");
-      window.flag = 1;
+      window.flag = 0;
       setCookie(languageFlag, flag);
     }
   });
@@ -150,6 +126,9 @@ function loadProperties(str) {
       $('#dappFooterText23').html($.i18n.prop('string_dappFooterText13'));
       $('#dappFooterText33').html($.i18n.prop('string_dappFooterText13'));
       $('#dappFooterText43').html($.i18n.prop('string_dappFooterText13'));
+
+
+
 
 
       $('#nav_home').html($.i18n.prop('string_navhome'));

@@ -11,14 +11,12 @@ body, html {
 
 /*switch language begin*/
 
-
-    .switchLanguageBtn {
-        position: absolute;
-        top: 18px;
-        right: -130px;
-        z-index: 9999;
-    }
-
+.switchLanguageBtn {
+    position: absolute;
+    top: 18px;
+    right: -130px;
+    z-index: 9999;
+}
 
 .btnContainer {
     position: relative;
@@ -111,12 +109,12 @@ body, html {
 }
 
 /*@media screen and (max-width: 500px) {*/
-    /*.switchLanguageBtn {*/
-        /*position: fixed;*/
-        /*top: 20px;*/
-        /*right: 20px;*/
-        /*z-index: 9999;*/
-    /*}*/
+/*.switchLanguageBtn {*/
+/*position: fixed;*/
+/*top: 20px;*/
+/*right: 20px;*/
+/*z-index: 9999;*/
+/*}*/
 /*}*/
 
 /*switch language end*/
