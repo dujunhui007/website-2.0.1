@@ -64,8 +64,8 @@ $(function () {
       window.flag = 0;
       setCookie(languageFlag, flag);
 
-      $("#downloads .downloadsContainer .downloadsContainerLeft .dlsit-list li .dlistBtns a:nth-child(1)").attr("data-text","Download");
-      $("#downloads .downloadsContainer .downloadsContainerLeft .dlsit-list li .dlistBtns a:nth-child(2)").attr("data-text","More");
+      $("#downloads .downloadsContainer .downloadsContainerLeft .dlsit-list li .dlistBtns a:nth-child(1)").attr("data-text", "Download");
+      $("#downloads .downloadsContainer .downloadsContainerLeft .dlsit-list li .dlistBtns a:nth-child(2)").attr("data-text", "More");
 
 
       $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li").css("font-size", "16px");
@@ -127,8 +127,8 @@ $(function () {
       window.flag = 1;
       setCookie(languageFlag, flag);
 
-      $("#downloads .downloadsContainer .downloadsContainerLeft .dlsit-list li .dlistBtns a:nth-child(1)").attr("data-text","下载");
-      $("#downloads .downloadsContainer .downloadsContainerLeft .dlsit-list li .dlistBtns a:nth-child(2)").attr("data-text","更多");
+      $("#downloads .downloadsContainer .downloadsContainerLeft .dlsit-list li .dlistBtns a:nth-child(1)").attr("data-text", "下载");
+      $("#downloads .downloadsContainer .downloadsContainerLeft .dlsit-list li .dlistBtns a:nth-child(2)").attr("data-text", "更多");
 
       $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li").css("font-size", "20px");
 
