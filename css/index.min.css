@@ -3596,6 +3596,9 @@ footer .footerRight span {
 }
 
 @media screen and (max-width: 1910px){
+    .switchLanguageBtn{
+        right: 4px;
+    }
     nav .navContainer .navRight {
         position: relative;
         width: 72%;

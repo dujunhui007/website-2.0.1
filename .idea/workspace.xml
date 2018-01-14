@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a082ded-b6be-4b35-817f-db9c5ebd98a6" name="Default" comment="" />
+    <list default="true" id="0a082ded-b6be-4b35-817f-db9c5ebd98a6" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.min.css" afterPath="$PROJECT_DIR$/css/index.min.css" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -15,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.min.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.min.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/index.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="304">
+              <caret line="3599" column="19" lean-forward="false" selection-start-line="3599" selection-start-column="19" selection-end-line="3599" selection-end-column="19" />
               <folding>
                 <element signature="e#692#732#0" expanded="false" />
                 <element signature="e#754#909#0" expanded="false" />
@@ -31,10 +34,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/application.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
+            <state relative-caret-position="1066">
               <caret line="740" column="29" lean-forward="false" selection-start-line="740" selection-start-column="29" selection-end-line="740" selection-end-column="29" />
               <folding>
                 <element signature="e#721#761#0" expanded="false" />
@@ -146,8 +149,8 @@
         <option value="$PROJECT_DIR$/js/dappSwitchLanguage.js" />
         <option value="$PROJECT_DIR$/btnHoverCss/buttons.css" />
         <option value="$PROJECT_DIR$/js/indexSwitchLanguage.js" />
-        <option value="$PROJECT_DIR$/css/index.min.css" />
         <option value="$PROJECT_DIR$/css/application.css" />
+        <option value="$PROJECT_DIR$/css/index.min.css" />
       </list>
     </option>
   </component>
@@ -251,12 +254,12 @@
       <workItem from="1515599138078" duration="2659000" />
       <workItem from="1515637578789" duration="60965000" />
       <workItem from="1515762928783" duration="27191000" />
-      <workItem from="1515914322745" duration="955000" />
+      <workItem from="1515914322745" duration="1660000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91770000" />
+    <option name="totallyTimeSpent" value="92475000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -709,29 +712,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="e#692#732#0" expanded="false" />
-            <element signature="e#754#909#0" expanded="false" />
-            <element signature="e#1243#1281#0" expanded="false" />
-            <element signature="e#1553#1641#0" expanded="false" />
-            <element signature="e#1648#2122#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/application.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
+        <state relative-caret-position="1066">
           <caret line="740" column="29" lean-forward="false" selection-start-line="740" selection-start-column="29" selection-end-line="740" selection-end-column="29" />
           <folding>
             <element signature="e#721#761#0" expanded="false" />
             <element signature="e#783#938#0" expanded="false" />
             <element signature="e#1272#1310#0" expanded="false" />
             <element signature="e#1582#1670#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="3599" column="19" lean-forward="false" selection-start-line="3599" selection-start-column="19" selection-end-line="3599" selection-end-column="19" />
+          <folding>
+            <element signature="e#692#732#0" expanded="false" />
+            <element signature="e#754#909#0" expanded="false" />
+            <element signature="e#1243#1281#0" expanded="false" />
+            <element signature="e#1553#1641#0" expanded="false" />
+            <element signature="e#1648#2122#0" expanded="false" />
           </folding>
         </state>
       </provider>
