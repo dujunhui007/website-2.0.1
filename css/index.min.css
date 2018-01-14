@@ -2799,8 +2799,10 @@ ul.homeLinks li:nth-child(4) i {
     height: 25px;
     line-height: 25px;
     text-align: left;
-    color: #a9abb4;
-    font-size: 16px
+    color: #000;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    font-size: 16px;
 }
 
 #downloads .downloadsContainer .downloadsContainerLeft .dlsit-list li .dlistBtns {
