@@ -618,7 +618,8 @@ nav .navRight .switchLanguage button:nth-child(2) {
 
 .section .sectionTop span {
     color: #313131;
-    font-size: 36px
+    font-size: 36px;
+    font-family: aschFont;
 }
 
 .section .sectionTop p {
@@ -1168,7 +1169,8 @@ ul.homeLinks li:nth-child(4) i {
     margin-bottom: 20px;
     font-size: 20px;
     font-weight: 500;
-    color: #313131
+    font-family: aschFont;
+    color: #313131;
 }
 
 #introduction .introductionContainer .introductionCenter .introductionContent p {
@@ -1525,6 +1527,7 @@ ul.homeLinks li:nth-child(4) i {
     line-height: 25px;
     text-align: center;
     font-weight: bold;
+    font-family: aschFont;
     letter-spacing: 1px;
     font-size: 18px;
     position: relative;
@@ -1569,6 +1572,7 @@ ul.homeLinks li:nth-child(4) i {
     border-radius: 20px;
     color: #353535;
     font-size: 14px;
+    font-family: aschFont;
     opacity: 0.8;
     border: 1px solid rgba(189, 189, 189, 1);
 }
@@ -1613,6 +1617,7 @@ ul.homeLinks li:nth-child(4) i {
     font-size: 48px;
     margin-bottom: 10px;
     font-weight: 300;
+    font-family: aschFont;
     /*opacity: .86*/
 }
 
@@ -1951,7 +1956,8 @@ ul.homeLinks li:nth-child(4) i {
     color: #000;
     font-size: 48px;
     margin-bottom: 10px;
-    font-weight: 300
+    font-weight: 300;
+    font-family: aschFont;
 }
 
 #featuresTwo .featuresBottomContainer .featuresBottom p {
@@ -1988,6 +1994,7 @@ ul.homeLinks li:nth-child(4) i {
     height: 25px;
     line-height: 25px;
     font-size: 20px;
+    font-family: aschFont;
     margin-bottom: 10px;
     color: #000;
     opacity: 0.7;
@@ -2339,6 +2346,7 @@ ul.homeLinks li:nth-child(4) i {
 #advantages .advantagesContainer ul li .advantageItemContainer p.advantagesContainerText1 {
     bottom: 70px;
     font-size: 20px;
+    font-family: aschFont;
     display: block;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
@@ -2371,6 +2379,7 @@ ul.homeLinks li:nth-child(4) i {
     padding: 0 20px;
     box-sizing: border-box;
     font-size: 13px;
+    font-family: aschFont;
     display: block;
     text-align: left;
     -webkit-transition: all .4s ease-in-out;
@@ -2525,7 +2534,8 @@ ul.homeLinks li:nth-child(4) i {
     text-align: left;
     padding-left: 20px;
     box-sizing: border-box;
-    background: #fff
+    background: #fff;
+    font-family: aschFont;
 }
 
 #scenarios .scenariosContainerCenter .scenariosTitle i {
@@ -2574,6 +2584,7 @@ ul.homeLinks li:nth-child(4) i {
     height: 40px;
     line-height: 40px;
     font-weight: 600;
+    font-family: aschFont;
     color: #000;
     opacity: .8;
     filter: alpha(opacity=80);
@@ -2583,7 +2594,8 @@ ul.homeLinks li:nth-child(4) i {
 #scenarios .scenariosContainerCenter .scenariosContainer ul li a {
     display: block;
     color: #ffa81c;
-    margin: 5px 0
+    margin: 5px 0;
+    font-family: aschFont;
 }
 
 #scenarios .scenariosContainerCenter .scenariosContainer ul li p {
@@ -2688,6 +2700,7 @@ ul.homeLinks li:nth-child(4) i {
     border-bottom: 1px solid #ccc;
     box-sizing: border-box;
     font-size: 16px;
+    font-family: aschFont;
 }
 
 #downloads .downloadsContainer .downloadsContainerLeft .dlsit-list {
@@ -2775,7 +2788,8 @@ ul.homeLinks li:nth-child(4) i {
 #downloads .downloadsContainer .downloadsContainerLeft .dlsit-list li h4 {
     font-size: 25px;
     color: #6b7281;
-    font-weight: 500
+    font-weight: 500;
+    font-family: aschFont;
 }
 
 #downloads .downloadsContainer .downloadsContainerLeft .dlsit-list li .dlistContainer {
@@ -2789,6 +2803,7 @@ ul.homeLinks li:nth-child(4) i {
     display: block;
     color: #000;
     font-size: 16px;
+    font-family: aschFont;
     line-height: 25px;
     opacity: .7;
     filter: alpha(opacity=70);
@@ -2803,6 +2818,7 @@ ul.homeLinks li:nth-child(4) i {
     opacity: 0.7;
     filter: alpha(opacity=70);
     font-size: 16px;
+    font-family: aschFont;
 }
 
 #downloads .downloadsContainer .downloadsContainerLeft .dlsit-list li .dlistBtns {
@@ -2823,7 +2839,8 @@ ul.homeLinks li:nth-child(4) i {
     text-align: center;
     border-radius: 4px;
     background: #567fdc;
-    font-size: 24px
+    font-size: 24px;
+    font-family: aschFont;
 }
 
 #downloads .downloadsContainer .downloadsContainerLeft .dlsit-list li .dlistBtns a:nth-child(2):hover {
@@ -2841,7 +2858,8 @@ ul.homeLinks li:nth-child(4) i {
     text-align: center;
     border-radius: 2px;
     background: #fff;
-    border: 1px solid #d6d8de
+    font-family: aschFont;
+    border: 1px solid #d6d8de;
 }
 
 #downloads .downloadsContainer .downloadsContainerLeft .dlsit-list li .dlistBtns a:nth-child(2) span {
