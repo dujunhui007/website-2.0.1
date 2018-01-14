@@ -14,7 +14,7 @@ body, html {
 .switchLanguageBtn {
     position: absolute;
     top: 18px;
-    right: -30px;
+    right: 138px;
     z-index: 9999;
 }
 
@@ -93,10 +93,10 @@ body, html {
 
 .sjx {
     display: inline-block;
-    border-right: 2px solid #fff;
-    border-top: 2px solid #fff;
-    height: 8px;
-    width: 8px;
+    border-right: 2px solid #000;
+    border-top: 2px solid #000;
+    height: 6px;
+    width: 6px;
     /* margin: 50px auto 0; */
     transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
@@ -193,7 +193,8 @@ nav .navRight .switchLanguage button {
 nav .navContainer .navRight .equalThan {
     height: 100%;
     font-size: 0;
-    display: inline-block
+    display: inline-block;
+    padding-right: 180px;
 }
 
 nav .navContainer .navRight .equalThan li:hover {
@@ -217,7 +218,7 @@ nav .navContainer .navRight .equalThan li {
 nav .navContainer .navRight .equalThan li a {
     display: block;
     height: 100%;
-    color: #313131;
+    color: #000;
     font-size: 18px;
     font-family: aschFont;
     padding-right: 20px
@@ -226,7 +227,8 @@ nav .navContainer .navRight .equalThan li a {
 nav .navContainer .navRight .moreThan {
     height: 100%;
     font-size: 0;
-    display: inline-block
+    display: inline-block;
+    padding-right: 180px;
 }
 
 nav .navContainer .navRight .moreThan li:hover {
@@ -252,7 +254,8 @@ nav .navContainer .navRight .moreThan li a {
     height: 100%;
     color: #000;
     font-size: 18px;
-    padding-right: 20px
+    font-family: aschFont;
+    padding-right: 20px;
 }
 
 nav .navContainer .navRight .downloadWhitePaper {
@@ -331,7 +334,7 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     background-size: cover;
 }
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 1910px) {
     .applicationContainer .applicationTop {
         width: 100%;
         height: 300px;
@@ -380,12 +383,14 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
 .applicationContainer .applicationCenter .applicationCenterTitle .toHome {
     /*opacity: 0.7;*/
     color: #000;
+    font-family: aschFont;
 }
 
 .applicationContainer .applicationCenter .applicationCenterTitle .toCCtime {
     opacity: 0.7;
     filter: alpha(opacity=70);
     color: #000;
+    font-family: aschFont;
 }
 
 .applicationContainer .applicationCenter .applicationContent {
@@ -481,6 +486,7 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     text-align: left;
     color: #282828;
     font-size: 30px;
+    font-family: aschFont;
     line-height: 75px;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -514,6 +520,7 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
 .applicationContainer .applicationCenter .applicationContent .applicationContentRight .aschSide li p:nth-child(1) {
     color: #282828;
     font-size: 16px;
+    font-family: aschFont;
     line-height: 22px;
     font-weight: bold;
     white-space: nowrap
@@ -566,6 +573,7 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     border-radius: 3px;
     color: #fff;
     font-size: 20px;
+    font-family: aschFont;
 }
 
 .applicationContainer .applicationCenter .applicationIntroduction {
@@ -581,7 +589,7 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     display: block;
     font-size: 30px;
     color: #000;
-    font-family: Myriad;
+    font-family: aschFont;
     margin-bottom: 20px;
 }
 
@@ -689,4 +697,47 @@ footer .footerRight i {
 
 footer .footerRight span {
     color: #fff
+}
+
+@media screen and (max-width: 1910px){
+    nav .navContainer .navRight .equalThan li a {
+        display: block;
+        height: 100%;
+        color: #000;
+        font-size: 16px;
+        font-family: aschFont;
+        padding-right: 11px;
+    }
+
+    .switchLanguageBtn {
+        position: absolute;
+        top: 18px;
+        right: 54px;
+        z-index: 9999;
+    }
+
+    nav .navContainer .navRight .moreThan li a {
+        display: block;
+        height: 100%;
+        color: #000;
+        font-size: 16px;
+        font-family: aschFont;
+        padding-right: 11px;
+    }
+
+    nav .navContainer .navRight {
+        padding-right: 72px;
+    }
+
+
+    nav .navContainer .navRight .moreThan {
+        height: 100%;
+        font-size: 0;
+        display: inline-block;
+        padding-right: 150px;
+    }
+
+    nav .navContainer .navRight .equalThan{
+        padding-right: 150px;
+    }
 }
