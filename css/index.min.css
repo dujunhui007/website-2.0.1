@@ -3616,4 +3616,13 @@ footer .footerRight span {
         padding-right: 11px;
         font-family: aschFont;
     }
+
+    nav .navContainer .navRight .moreThan li a {
+        display: block;
+        height: 100%;
+        color: #000;
+        font-size: 16px;
+        padding-right: 11px;
+        font-family: aschFont;
+    }
 }
