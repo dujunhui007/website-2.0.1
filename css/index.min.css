@@ -1655,6 +1655,7 @@ ul.homeLinks li:nth-child(4) i {
     height: 25px;
     line-height: 25px;
     font-size: 20px;
+    font-family: aschFont;
     margin-bottom: 10px;
     color: #000;
     opacity: 0.7;

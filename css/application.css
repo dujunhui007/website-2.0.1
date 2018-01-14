@@ -14,7 +14,7 @@ body, html {
 .switchLanguageBtn {
     position: absolute;
     top: 18px;
-    right: 138px;
+    right: 40px;
     z-index: 9999;
 }
 
@@ -74,8 +74,16 @@ body, html {
     height: 14px;
 }
 
-.btnContainer .btn1 span, .btnContainer .btn2 span {
+.btnContainer .btn1 span{
     color: #000;
+}
+
+.btnContainer .btn2 span{
+    color: #fff;
+}
+
+.btnContainer .btn1 span, .btnContainer .btn2 span {
+
     font-size: 16px;
     font-family: aschFont;
     /* vertical-align: sub; */
@@ -143,7 +151,9 @@ nav .navContainer {
 nav .navContainer .navLeft {
     display: inline-block;
     height: 50px;
-    margin-top: 10px
+    margin-top: 10px;
+    margin-left: 20px;
+
 }
 
 nav .navContainer .navLeft span {
@@ -175,7 +185,7 @@ nav .navContainer .navRight {
     display: inline-block;
     float: right;
     background: 0 0;
-    padding-right: 100px;
+    /*padding-right: 100px;*/
 }
 
 nav .navRight .switchLanguage {
@@ -194,7 +204,7 @@ nav .navContainer .navRight .equalThan {
     height: 100%;
     font-size: 0;
     display: inline-block;
-    padding-right: 180px;
+    padding-right: 168px;
 }
 
 nav .navContainer .navRight .equalThan li:hover {
@@ -228,7 +238,7 @@ nav .navContainer .navRight .moreThan {
     height: 100%;
     font-size: 0;
     display: inline-block;
-    padding-right: 180px;
+    padding-right: 168px;
 }
 
 nav .navContainer .navRight .moreThan li:hover {
@@ -362,12 +372,12 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
 .applicationContainer .applicationCenter {
     padding-top: 10px;
     padding-bottom: 100px;
-    width: 1200px;
+    width: 70%;
     margin: 0 auto;
-    /*max-width: 1200px;*/
-    /*min-width: 1100px;*/
+    max-width: 1400px;
+     min-width: 1200px;
     box-sizing: border-box;
-    /*background: red;*/
+    /* background: red; */
 }
 
 .applicationContainer .applicationCenter .applicationCenterTitle {
@@ -407,7 +417,7 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
 }
 
 .applicationContainer .applicationCenter .applicationContent .applicationContentLeft {
-    width: 600px;
+    width: 650px;
     position: relative;
     overflow: hidden;
 }
@@ -432,7 +442,7 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
 }
 
 .applicationContainer .applicationCenter .applicationContent .applicationContentRight {
-    width: 519px;
+    width: 600px;
     position: relative;
 }
 
@@ -579,7 +589,7 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
 .applicationContainer .applicationCenter .applicationIntroduction {
     width: 100%;
     padding: 60px 40px;
-    box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 20px #ccc;
     border-radius: 5px;
     box-sizing: border-box;
     margin-top: 40px;
@@ -700,6 +710,15 @@ footer .footerRight span {
 }
 
 @media screen and (max-width: 1910px){
+    .applicationContainer .applicationCenter .applicationContent .applicationContentLeft{
+        width: 600px;
+    }
+    .applicationContainer .applicationCenter .applicationContent .applicationContentRight{
+        width: 520px;
+    }
+    nav .navContainer .navLeft{
+        margin-left:-130px;
+    }
     nav .navContainer .navRight .equalThan li a {
         display: block;
         height: 100%;
@@ -726,7 +745,7 @@ footer .footerRight span {
     }
 
     nav .navContainer .navRight {
-        padding-right: 72px;
+        padding-right: 40px;
     }
 
 
