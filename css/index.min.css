@@ -2832,6 +2832,10 @@ ul.homeLinks li:nth-child(4) i {
     background: #2e5bc0
 }
 
+#downloads .downloadsContainer .downloadsContainerLeft .dlsit-list li .dlistBtns a:nth-child(1) span {
+    font-family: aschFont;
+}
+
 #downloads .downloadsContainer .downloadsContainerLeft .dlsit-list li .dlistBtns a:nth-child(1) {
     width: 200px;
     height: 50px;
@@ -2866,7 +2870,8 @@ ul.homeLinks li:nth-child(4) i {
     color: #000;
     opacity: .7;
     filter: alpha(opacity=70);
-    font-size: 24px
+    font-size: 24px;
+    font-family: aschFont;
 }
 
 #downloads .downloadsContainer .downloadsContainerLeft .dlsit-list li .dlistBtns a {
