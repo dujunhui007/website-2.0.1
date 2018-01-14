@@ -157,7 +157,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -251,15 +251,15 @@
       <workItem from="1515599138078" duration="2659000" />
       <workItem from="1515637578789" duration="60965000" />
       <workItem from="1515762928783" duration="27191000" />
-      <workItem from="1515914322745" duration="5370000" />
+      <workItem from="1515914322745" duration="5590000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96185000" />
+    <option name="totallyTimeSpent" value="96405000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2157738" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
